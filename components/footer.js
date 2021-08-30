@@ -7,6 +7,9 @@ export default function Footer() {
       <Container>
         <div className="py-28 flex flex-col lg:flex-row items-center">
           Created By Tim Frey
+          <Link href="/disclaimer">
+            <p>Datenschutz</p>
+          </Link>
         </div>
       </Container>
     </footer>
