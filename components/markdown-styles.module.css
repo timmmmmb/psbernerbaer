@@ -16,3 +16,16 @@
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
+
+
+.markdown a {
+  text-align: center;
+  display: block;
+}
+
+.markdown a img {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}

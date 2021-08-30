@@ -13,15 +13,3 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
-
-a {
-    text-align: center;
-    display: block;
-}
-
-a img {
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-}
