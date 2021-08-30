@@ -1,5 +1,6 @@
 import '../styles/index.css'
 import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();

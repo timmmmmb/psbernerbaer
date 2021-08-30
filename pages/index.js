@@ -15,18 +15,6 @@ export default function Index({ allPosts }) {
       <Layout>
         <Head>
           <title>Pistolenschützen Bernerbär</title>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-29QD084JTP" />
-
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-29QD084JTP', { page_path: window.location.pathname });
-            `,
-            }}
-          />
         </Head>
         <Container>
           <Intro />
