@@ -1,4 +1,4 @@
-import { CMS_NAME } from '../lib/constants'
+import Link from 'next/link'
 
 export default function Intro() {
   return (
@@ -9,9 +9,14 @@ export default function Intro() {
         </h1>
       </section>
       <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
-        <h3>Hauptseite</h3>
-        <h3>Schiessdaten</h3>
-        <h3>Kontakt</h3>
+        <Link href="/">
+          <a>Hauptseite</a>
+        </Link>
+        <Link href="/posts/Neue%20Schiesstermine%202021"><a>Schiessdaten</a>
+        </Link>
+        <Link href="/contact">
+          <a>Kontakt</a>
+        </Link>
       </section>
     </>
   )
