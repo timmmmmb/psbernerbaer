@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Layout from "../components/layout";
-import Header from '../components/header'
 import Container from "../components/container";
 import Link from 'next/link'
 import dynamic from "next/dynamic";
+import Intro from "../components/intro";
 
 
 export default function Contact() {
@@ -13,12 +13,11 @@ export default function Contact() {
     return (
         <>
             <Layout>
-
                 <Head>
                     <title>Pistolenschützen Bernerbär</title>
                 </Head>
                 <Container>
-                    <Header />
+                    <Intro />
                     <div className="mx-auto w-4/6">
                         <section>
                             Wer sind wir? Wir sind die Bernerbären ein Pistolenschützen Verein welcher seit 1994 in der Region Bern aktiv ist. Momentan treffen wir uns 1 mal Pro Woche im Schiessstand Sand in der Nähe von Schöhnbühl.
@@ -34,7 +33,7 @@ export default function Contact() {
                             Wir schiessen im Schiessstand Sand in der Nähe von Schöhnbühl:
                         </section>
 
-                        <section className="mx-auto h-96 w-96">
+                        <section className="mx-auto h-96 w-96 mt-8">
                             <MapWithNoSSR />
                         </section>
                     </div>

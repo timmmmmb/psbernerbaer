@@ -1,13 +1,13 @@
 ---
 title: 'Neue Schiesstermine 2021'
 excerpt: 'Die Schiesssaison 2020 neigt sich langsam dem Ende zu und das Jahr 2021 steht kurz vor der Tür. Wie jedes Jahr beginnt die neue Schiesssaison im Frühling dieses Jahr findet das erste Schiesstraining am 30. März statt.'
-coverImage: '/assets/blog/hello-world/cover.jpg'
+coverImage: '/assets/blog/coverimages/cover1.jpg'
 date: '2020-11-28T05:35:07.322Z'
 author:
   name: Tim Frey
   picture: '/assets/blog/authors/FreyTim.jpg'
 ogImage:
-  url: '/assets/blog/hello-world/cover.jpg'
+  url: '/assets/blog/coverimages/cover1.jpg'
 ---
 
 Die Schiesssaison 2020 neigt sich langsam dem Ende zu und das Jahr 2021 steht kurz vor der Tür. Wie jedes Jahr beginnt die neue Schiesssaison im Frühling dieses Jahr findet das erste Schiesstraining am 30. März statt. 
